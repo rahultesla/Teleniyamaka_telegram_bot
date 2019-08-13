@@ -1,0 +1,4 @@
+keyboard
+pillow
+python-telegram-bot
+telegram
