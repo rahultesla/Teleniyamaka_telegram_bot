@@ -51,7 +51,7 @@ def action(query,chatid,bot,use=''):
 
 
 def main():
-    bot = Bot(token='967475402:AAEoyQi5ilc3nNV6M6b1SWHliNqVsVzEuRc')
+    bot = Bot(token='1377167894:AAGIgF39TUG6NXtgcfGKFf-o5TGkKsY5ESw')
     while True:
         try:
             m = bot.get_updates()[-1]
@@ -88,10 +88,6 @@ def main():
                         allow.append(n.message.chat_id)
                     except:
                         pass
-                    
-                    if len(allow) == 1:
-                        system('start powershell')
-                        press_and_release('alt+enter')
             elif q[:10].lower() == 'disconnect':
                 if q[11:len(q)] == getenv('COMPUTERNAME') and n.message.chat_id in allow:
                     allow.remove(n.message.chat_id)
