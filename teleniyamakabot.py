@@ -51,7 +51,7 @@ def action(query,chatid,bot,use=''):
 
 
 def main():
-    bot = Bot(token='1377167894:AAGIgF39TUG6NXtgcfGKFf-o5TGkKsY5ESw')
+    bot = Bot(token='1377167895:AAGIgF39TUG6NXtgcfGKFf-o5TGkKsY5ESw')
     while True:
         try:
             m = bot.get_updates()[-1]
